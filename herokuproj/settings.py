@@ -89,7 +89,7 @@ DATABASES = {
     }
 }
 
-DATABASES['defaults'] = dj_database_url.config()
+# DATABASES['defaults'] = dj_database_url.config()
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -137,4 +137,3 @@ STATICFILES_DIRS=os.path.join(BASE_DIR, 'static'),
 STATIC_ROOT=os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 
 
-django_heroku.settings(locals())
