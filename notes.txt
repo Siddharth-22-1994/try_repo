@@ -1,0 +1,2 @@
+connect Vercel with django --> https://www.youtube.com/watch?v=Ri-pFKtMX48
+To connect django db with postgress Railway --> https://www.youtube.com/watch?v=HEV1PWycOuQ
